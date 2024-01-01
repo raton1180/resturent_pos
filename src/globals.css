@@ -71,7 +71,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground custom-scrollbar;
+    @apply bg-[#040410] text-foreground custom-scrollbar text-white;
   }
 }
 
@@ -92,4 +92,14 @@
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #7878a3;
+}
+.left_sidebar{
+  @apply max-w-[400px] min-w-[300px] w-full h-screen p-3;
+}
+.dashboard_btn{
+  @apply w-full flex justify-start h-[50px] bg-transparent text-black border hover:text-white flex-row gap-3 items-center
+}
+.reports{
+  background-image: url('./assets/images/background_image.jpg');
+  @apply repeat-0 bg-cover bg-top
 }

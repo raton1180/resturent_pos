@@ -1,5 +1,6 @@
 import { FaArrowLeft } from "react-icons/fa";
 import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -14,7 +15,7 @@ const Header = () => {
             </div>
             <div className="flex mx-5 items-center gap-3">
                 <Button className="bg-transparent border-gray-600 border px-10">Customers</Button>
-                <Button className="bg-transparent border-gray-600 border px-10">Orders</Button>
+                <Link to={'/current-order'}><Button className="bg-transparent border-gray-600 border px-10">Orders</Button></Link>
             </div>
         </nav>
     )

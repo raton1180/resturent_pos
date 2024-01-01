@@ -84,15 +84,15 @@ const TableDetails = () => {
                 <div className="p-3 text-gray-500">
                     <Table>
                         <TableBody>
-                            <TableRow className="hover:bg-transparent border-none">
+                            <TableRow className="hover:bg-[#ffffff05] border-none">
                                 <TableCell className="pt-[1px]">Tax:</TableCell>
                                 <TableCell className="pt-[1px]">&#2547; 500</TableCell>
                             </TableRow>
-                            <TableRow className="hover:bg-transparent border-none">
+                            <TableRow className="hover:bg-[#ffffff05] border-none">
                                 <TableCell className="pt-[1px]"> SubTotal:</TableCell>
                                 <TableCell className="pt-[1px]">&#2547; 2500</TableCell>
                             </TableRow>
-                            <TableRow className="hover:bg-transparent border-none">
+                            <TableRow className="hover:bg-[#ffffff05] border-none">
                                 <TableCell className="pt-[1px] font-semibold text-[25px] text-white">Total:</TableCell>
                                 <TableCell className="pt-[1px] font-semibold text-[25px] text-white">&#2547; 2700</TableCell>
                             </TableRow>
