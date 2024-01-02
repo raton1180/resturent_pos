@@ -101,5 +101,5 @@
 }
 .reports{
   background-image: url('./assets/images/background_image.jpg');
-  @apply repeat-0 bg-cover bg-top
+  @apply repeat-0 bg-cover bg-top py-5
 }
